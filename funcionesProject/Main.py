@@ -11,3 +11,10 @@ def mostrarNombre(nombre):
 nom = input("Ingrese su nombre: ")
 mostrarNombre(nom)
 
+# Argumentos arbitrsrios
+def mostrarEstudiantes(*args):
+    print("El estudiante: " +args[4])
+
+# Invocamos la funcion
+mostrarEstudiantes("Emil", "Tobias", "Linus", "Bill", "JuanJo")
+
